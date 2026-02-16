@@ -536,6 +536,280 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 91.44 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c83f51f-30da-4c2d-a523-effeec3499b7")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fd4168-b134-411a-b666-50cf06b094d5")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae593c0-d6b3-40a5-9013-914228068912")
+	)
+	(wire
+		(pts
+			(xy 91.44 74.93) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba72027-be99-41f2-be3c-f365b90dc7ba")
+	)
+	(wire
+		(pts
+			(xy 99.06 72.39) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fb9c29-5d17-4241-9b5e-fcb14a6ce0fb")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 91.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b42109a-b8aa-4c4b-a42e-ee21563e4df0")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.85) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da915b0-28e3-4ee7-b11c-a1ac36812718")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b88080f-3399-491e-8b10-d30fe3ff0da7")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a644b5-8877-4eb4-ae07-0ddf6e49c466")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 99.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea085b5-83f5-4533-a6f5-4815b1e29ec5")
+	)
+	(wire
+		(pts
+			(xy 88.9 73.66) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb174eff-2a7e-4bb3-83f4-57c0b1a34b93")
+	)
+	(wire
+		(pts
+			(xy 90.17 71.12) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6e38c7-cdfb-4cd6-bc19-c90e4a22aa9f")
+	)
+	(wire
+		(pts
+			(xy 88.9 67.31) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d95f69-170c-4a23-88af-1b49da47f7c3")
+	)
+	(label "Serial-arduino -> esp32"
+		(at 100.33 66.04 180)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+			)
+			(justify right bottom)
+		)
+		(uuid "b13b6837-0f93-4528-b7d3-01b0237b863f")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29c75941-0847-4ea4-a07d-3456a0fe4aec")
+		(property "Reference" "1k3"
+			(at 98.552 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 96.5199 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 95.25 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2619f10-37cc-423f-bfbd-80f76ed7f1d5")
+		)
+		(pin "1"
+			(uuid "91f37878-a4e1-41cf-a2ba-f0dbeecea037")
+		)
+		(instances
+			(project "arduinoToEsp32"
+				(path "/1b30a8e2-a201-4aed-8eb4-6b771745c9eb"
+					(reference "1k3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d0a100b-3262-4464-b26f-e79eecbd01ec")
+		(property "Reference" "1k2"
+			(at 101.854 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 96.5199 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 95.25 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "526e2ef3-a657-4e5d-8b11-39569e3419b2")
+		)
+		(pin "1"
+			(uuid "82912aab-4db2-4c23-8179-2aa567b75f48")
+		)
+		(instances
+			(project "arduinoToEsp32"
+				(path "/1b30a8e2-a201-4aed-8eb4-6b771745c9eb"
+					(reference "1k2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 93.98 83.82 0)
@@ -618,6 +892,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
@@ -626,6 +901,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x03_P4.8mm_D1.25mm_OD2.3mm"
@@ -698,6 +974,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -741,16 +1018,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 71.12 0)
+		(at 95.25 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f5d27bd9-724a-434a-affb-f761250fcf8d")
-		(property "Reference" "R1"
-			(at 99.06 69.8499 0)
+		(property "Reference" "1k1"
+			(at 95.2499 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,16 +1035,17 @@
 			)
 		)
 		(property "Value" "R"
-			(at 99.06 72.3899 0)
+			(at 96.5199 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 94.742 71.12 90)
+			(at 95.25 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +1054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 71.12 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +1063,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 71.12 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +1080,7 @@
 		(instances
 			(project ""
 				(path "/1b30a8e2-a201-4aed-8eb4-6b771745c9eb"
-					(reference "R1")
+					(reference "1k1")
 					(unit 1)
 				)
 			)
